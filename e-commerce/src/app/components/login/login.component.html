@@ -1,0 +1,64 @@
+<!-- <body class="text-center">
+    <main class="form-signin w-100 m-auto">
+      <form [formGroup]="loginForm">
+        <img class="mb-4" src="https://img.icons8.com/ios-glyphs/512/user.png" alt="" width="72" height="65">
+        <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+    
+        <div class="form-floating">
+          <input type="email" class="form-control" id="floatingInput" formControlName="email" placeholder="name@example.com"/>
+          <label for="floatingInput">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="floatingPassword" formControlName="pasword" placeholder="Password">
+          <label for="floatingPassword">Password</label>
+        </div>
+    
+        
+        <button class="w-100 btn btn-lg btn-primary" type="submit"(click)="login()">GİRİŞ</button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2022–2023</p>
+      </form>
+    </main>
+</body> -->
+
+
+<body>
+  <div class="container">
+    <input type="checkbox" id="flip">
+    <div class="cover">
+      <div class="front">
+        <img src="../../../assets/img/login_img.png" alt="">
+        <div class="text">
+          <span class="text-1">Every new friend is a <br> new adventure</span>
+          <span class="text-2">Let's get connected</span>
+        </div>
+      </div>
+    </div>
+    <div class="forms">
+        <div class="form-content">
+          <div class="login-form">
+            <div class="title">Login</div>
+          <form [formGroup]="loginForm">
+            <div class="input-boxes">
+              <div class="input-box">
+                <i><img src="../../../assets/img/email.png" style="width: 25px; height: 25px;"></i>
+                <input type="email" class="form-control" id="floatingInput" formControlName="email" placeholder="Email giriniz" required>
+              </div>
+              <div class="input-box">
+                <i><img src="../../../assets/img/lock.png" style="width: 25px; height: 25px;"></i>
+                <input type="password" class="form-control" id="floatingPassword" formControlName="pasword" placeholder="Şifre giriniz" required>
+              </div>
+              <div class="text"><a href="#">Şifrenizi unuttunuz mu ?</a></div>
+              <div class="button input-box">
+                <input (click)="login()" type="submit" value="GİRİŞ">
+              </div>
+              <div routerLink="/user-register" class="text sign-up-text">Hesabınız yok mu? <label for="flip">şimdi kaydol</label></div>
+            </div>
+        </form>
+      </div>
+    </div>
+    </div>
+  </div>
+</body>
+
+
+

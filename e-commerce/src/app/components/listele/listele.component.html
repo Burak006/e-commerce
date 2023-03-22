@@ -1,0 +1,43 @@
+<div class="form-group"> 
+  <input type="text" class="form-control" id="filter" style="width: 500px; margin: auto;" 
+  placeholder="Aradığınız ürün, kategori veya markayı yazınız" [(ngModel)]="filterText"/>
+</div>
+
+  <!-- <li class="list-group-item">{{produc.unitPrice |vat:10 |currency:'EUR'}}</li> -->
+
+  <br>
+  <div style="clear: both;"></div>
+    <div class="container page-wrapper" *ngFor="let produc of product|filter:filterText">
+      <div class="page-inner">
+        <div class="col-md-3" style="float: left; margin-bottom: 10px;">
+          <div class="el-wrapper">
+            <div class="box-up">
+              <img class="img" src="{{produc.images}}" alt="" style="width: 300px; height: 300px;">
+              <div class="img-info">
+                <div class="info-inner">
+                  <span class="p-name">{{produc.name}}</span>
+                  <span class="p-company">{{produc.description}}</span>
+                </div>
+                <div class="a-size">STOK : <span class="size">{{produc.unitsInStock}}</span></div>
+              </div>
+            </div>
+    
+            <div class="box-down">
+              <div class="h-bg">
+                <div class="h-bg-inner"></div>
+              </div>
+    
+              <span class="cart" style="cursor:pointer">
+                <span class="price">{{produc.unitPrice |currency:'₺'}}</span>
+                <span class="add-to-cart">
+                  <span class="txt" (click)="addToCart(produc)">SEPETE EKLE</span>
+                </span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+  

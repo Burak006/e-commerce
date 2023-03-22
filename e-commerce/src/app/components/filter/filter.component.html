@@ -1,0 +1,30 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">categoryId</th>
+        <th scope="col">unitPrice</th>
+        <th scope="col">unitsInStock</th>
+        <th scope="col">name</th>
+        <th scope="col">description</th>
+        <th scope="col">images</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let produc of product">
+        <th scope="row">1</th>
+        <td>{{produc.id}}</td>
+        <td>{{produc.categoryId}}</td>
+        <td>{{produc.unitPrice}}</td>
+        <td>{{produc.unitsInStock}}</td>
+        <td>{{produc.name}}</td>
+        <td>{{produc.description}}</td>
+        <td>{{produc.images}}</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+
+  
+

@@ -1,0 +1,91 @@
+<!-- <div style="clear: both;"></div>
+
+<body class="hero-anime">	
+
+	<div class="navigation-wrap bg-light start-header start-style">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-md navbar-light">
+					
+						<a class="navbar-brand" href="/"><img src="../../../assets/img/BE-logo.png" alt="" style="width: 45px; height: 45px;"></a>	
+
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						
+						
+							<ul class="navbar-nav">
+                <li class="nav-item">
+									<a class="nav-link" href="/">Ansayfa</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="/">Ürünler</a>
+								</li>
+                <li class="nav-item">
+									<a class="nav-link" style="left: 500px;">&nbsp;</a>
+								</li>
+								<li class="nav-item" style="right: 0;">
+									<a class="nav-link" routerLink="/contact" style="float: right;">Contact</a>
+								</li>
+                <li class="nav-item dropdown" style="float: right;">
+
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="../../../assets/img/shopping-cart-go.png" style="width: 20px; height: 20px;">SEPET
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li *ngFor="let item of cartItems"><a class="dropdown-item" >{{item.product.name}}
+                      --Adet: {{item.quantity}}x
+                    </a>
+                  </li>
+                    
+                    <li><hr class="dropdown-divider"></li>
+                    <li ><a class="dropdown-item"  >Toplam Fiyat:{{cartService.totalPrice}}</a></li>
+                    <li ><a class="dropdown-item" routerLink="cart-summary" >Sepete Git</a></li>
+                  </ul>
+                </li>
+								<li class="nav-item" style="float: right;">
+									<a class="nav-link" routerLink="user-register">Kayıt Ol</a>
+								</li>
+								<li class="nav-item" style="float: right;">
+									<a class="nav-link" routerLink="login">Giriş Yap</a>
+								</li>
+							</ul>
+						
+					</nav>		
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+<div style="clear: both;"></div>
+
+
+<div class="banner_div_ust">
+	<div class="govde">
+   <a href="/"><div class="banner_logo"><img src="../../../assets/img/BE-logo.png" alt="" style="width: 45px; height: 45px;"></div></a>
+	 <a href="/"><div class="icon1">Anasayfa</div></a>
+	 <a href="/products"><div class="icon2">Ürünler</div></a>
+	 <a routerLink="/contact"><div class="icon3">Contact</div></a>
+
+	 <a routerLink="/login"><div class="icon6"><img src="../../../assets/img/home_login.png" style="width: 30px;height: 30px;"><br>Login</div></a>
+  	 <a routerLink="/user-register"><div class="icon6"><img src="../../../assets/img/register.png" style="width: 30px;height: 30px;"><br>Register</div></a>
+
+   <a><div class="icon5"><li class="nav-item dropdown">
+
+	<a style="margin-top: 20px;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+	  <img src="../../../assets/img/shopping-cart-go.png" style="width: 20px; height: 20px;">SEPET
+	</a>
+	<ul class="dropdown-menu">
+	  <li *ngFor="let item of cartItems"><a class="dropdown-item" >{{item.product.name}}
+		--Adet: {{item.quantity}}x
+	  </a>
+	</li>
+	  
+	  <li><hr class="dropdown-divider"></li>
+	  <li ><a class="dropdown-item"  >Toplam Fiyat:{{cartService.totalPrice}}</a></li>
+	  <li ><a class="dropdown-item" routerLink="cart-summary" >Sepete Git</a></li>
+	</ul>
+  </li></div></a>
+ </div>
+</div>

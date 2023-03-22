@@ -1,0 +1,161 @@
+{
+  "products": [
+    {
+      "id": 5,
+      "categoryId": 5,
+      "unitPrice": 18650,
+      "unitsInStock": 50,
+      "name": "ASUS",
+      "description": "5 Nesil Laptop",
+      "images": "../assets/img/product01.png"
+    },
+    {
+      "id": 6,
+      "categoryId": 6,
+      "unitPrice": 55000,
+      "unitsInStock": 20,
+      "name": "IPHONE",
+      "description": "14 Pro Max",
+      "images": "../assets/img/product02.png"
+    },
+    {
+      "id": 7,
+      "categoryId": 4,
+      "unitPrice": 3000,
+      "unitsInStock": 15,
+      "name": "SAMSUNG",
+      "description": "j7 Prime",
+      "images": "../assets/img/product07.png"
+    },
+    {
+      "id": 8,
+      "categoryId": 7,
+      "unitPrice": 13000,
+      "unitsInStock": 6,
+      "name": "HP",
+      "description": "5 Nesil Laptop",
+      "images": "../assets/img/product03.png"
+    },
+    {
+      "id": 2,
+      "categoryId": 2,
+      "unitPrice": 9800,
+      "unitsInStock": 17,
+      "name": "DELL",
+      "description": "3 Nesil Laptop",
+      "images": "../assets/img/product05.png"
+    },
+    {
+      "id": 3,
+      "categoryId": 3,
+      "unitPrice": 18600,
+      "unitsInStock": 13,
+      "name": "LENOVA",
+      "description": "5 Nesil Laptop",
+      "images": "../assets/img/product06.png"
+    },
+    {
+      "id": 1,
+      "categoryId": 1,
+      "unitPrice": 12500,
+      "unitsInStock": 86,
+      "name": "CANO",
+      "description": "Son Teknoloji Lenler Barındırır",
+      "images": "../assets/img/product04.png"
+    },
+    {
+      "id": 4,
+      "categoryId": 4,
+      "unitPrice": 5999,
+      "unitsInStock": 24,
+      "name": "SAMSUNG",
+      "description": "2.El Telefonlar",
+      "images": "../assets/img/mobile-img.png"
+    },
+    {
+      "id": 9,
+      "categoryId": 8,
+      "unitPrice": 20000,
+      "unitsInStock": 10,
+      "name": "MONSTER",
+      "description": "Masa Üstü Bilgisayar",
+      "images": "../assets/img/computer-img.png"
+    },
+    {
+      "id": 10,
+      "categoryId": 7,
+      "unitPrice": 15000,
+      "unitsInStock": 20,
+      "name": "HP",
+      "description": "7 Nesil Laptop",
+      "images": "../assets/img/laptop-img.png"
+    },
+    {
+      "id": 11,
+      "categoryId": 9,
+      "unitPrice": 500,
+      "unitsInStock": 50,
+      "name": "JBL kulaklık",
+      "description": "Oyuncu Kulaklığı",
+      "images": "../assets/img/product2.png"
+    },
+    {
+      "id": 12,
+      "categoryId": 6,
+      "unitPrice": 10000,
+      "unitsInStock": 150,
+      "name": "IPHONE Tablet",
+      "description": "M2 Tablet",
+      "images": "../assets/img/product4.png"
+    }
+  ],
+  "categories": [
+    {
+      "id": 2,
+      "name": "DELL"
+    },
+    {
+      "id": 1,
+      "name": "CANO"
+    },
+    {
+      "id": 3,
+      "name": "LENOVA"
+    },
+    {
+      "id": 4,
+      "name": "SAMSUNG"
+    },
+    {
+      "id": 5,
+      "name": "ASUS"
+    },
+    {
+      "id": 6,
+      "name": "IPHONE"
+    },
+    {
+      "id": 7,
+      "name": "HP"
+    },
+    {
+      "id": 8,
+      "name": "MONSTER"
+    },
+    {
+      "id": 9,
+      "name": "JBL"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Burak",
+      "surname": "Ergin",
+      "email": "burakergin",
+      "pasword": "12345",
+      "token": "mvklsdhgjkdrhgoerhg",
+      "expiration": "01/01/2023"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+<!-- <form [formGroup]="usersAdd" class="container">
+    <div class="mb-3">
+        <label for="carmodel">Kullanıcı Adı:</label>
+        <div class="form-group">
+          <input type="text" formControlName="name" class="form-control"/>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="carmodel">Kullanıcı Soyadı:</label>
+        <div class="form-group">
+          <input type="text" formControlName="surname" class="form-control"/>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="caryear">Email:</label>
+        <div class="form-group">
+          <input type="email" formControlName="email" class="form-control"/>
+        </div>
+      </div>
+
+      <div class="mb-3">
+        <label for="caryear">Şifre:</label>
+        <div class="form-group">
+          <input type="password" formControlName="pasword" class="form-control"/>
+        </div>
+      </div>
+      <button class="btn btn-fill btn-primary" (click)="userAdd()">Kullanıcı Ekle</button>
+  </form> -->
+
+  <body>
+    <div class="container">
+      <input type="checkbox" id="flip">
+      <div class="cover">
+        <div class="front">
+          <img src="../../../assets/img/login_img.png" alt="">
+          <div class="text">
+            <span class="text-1">Complete miles of journey <br> with one step</span>
+            <span class="text-2">Let's get started</span>
+          </div>
+        </div>
+      </div>
+      <div class="forms">
+          <div class="form-content">
+          <div class="signup-form">
+            <div class="title">Signup</div>
+          <form [formGroup]="usersAdd">
+              <div class="input-boxes">
+                <div class="input-box">
+                  <i><img src="../../../assets/img/user.png" style="width: 25px; height: 25px;"></i>
+                  <input type="text" formControlName="name" class="form-control" placeholder="Adınızı giriniz" required>
+                </div>
+                <div class="input-box">
+                  <i><img src="../../../assets/img/user.png" style="width: 25px; height: 25px;"></i>
+                  <input type="text" formControlName="surname" class="form-control" placeholder="Soyadınızı giriniz" required>
+                </div>
+                <div class="input-box">
+                  <i><img src="../../../assets/img/email.png" style="width: 25px; height: 25px;"></i>
+                  <input type="email" formControlName="email" class="form-control" placeholder="Email giriniz" required>
+                </div>
+                <div class="input-box">
+                  <i><img src="../../../assets/img/lock.png" style="width: 25px; height: 25px;"></i>
+                  <input type="password" formControlName="pasword" class="form-control" placeholder="Şifre giriniz" required>
+                </div>
+                <div class="button input-box">
+                  <input (click)="userAdd()" type="submit" value="Kullanıcı Ekle">
+                </div>
+                <div routerLink="/login" class="text sign-up-text">Zaten hesabınız var mı? <label for="flip">Şimdi giriş yap</label></div>
+              </div>
+        </form>
+      </div>
+      </div>
+      </div>
+    </div>
+  </body>
+
+
+  
