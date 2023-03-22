@@ -4,7 +4,7 @@
 <h1>Kullanılan Teknolojiler</h1>
 <h4>Angular - TypeScript - JavaScript - HTML 5 - Css 3 - Bootstrap 5<h/4>
 <h1>Anasayfa-Ürünler</h1>
-<img src="">
+<img src="file:///C:/Users/hp/Videos/Captures/ezgif.com-video-to-gif.gif">
 
 <h1>Sepet</h1>
 <img src="">
